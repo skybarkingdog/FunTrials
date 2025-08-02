@@ -1,0 +1,2 @@
+# FunTrials
+Some fun trials
