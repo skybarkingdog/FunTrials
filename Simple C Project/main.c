@@ -47,4 +47,6 @@ int main()	{
 
 void delay(uint32_t count) {
 	while(count--);
+	count=count-1;
 }
+/***/
