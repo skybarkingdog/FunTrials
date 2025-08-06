@@ -1,0 +1,6 @@
+Pin connection:
+TMP102: SDA->D3; SCL->D6;  3.3V
+LCD: SDA->D14; SCL->D15:   VDD 5V
+
+Last Modify
+08052025
