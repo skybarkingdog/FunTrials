@@ -60,8 +60,8 @@ all: main-build
 main-build: F401_TMP102_LCD.elf secondary-outputs
 
 # Tool invocations
-F401_TMP102_LCD.elf F401_TMP102_LCD.map: $(OBJS) $(USER_OBJS) C:\MyProjects\STM32\git\FunTrials\F401_TMP102_LCD\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "F401_TMP102_LCD.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\MyProjects\STM32\git\FunTrials\F401_TMP102_LCD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F401_TMP102_LCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+F401_TMP102_LCD.elf F401_TMP102_LCD.map: $(OBJS) $(USER_OBJS) C:\HaveFun\ST\git\FunTrials\F401_TMP102_LCD\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "F401_TMP102_LCD.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\HaveFun\ST\git\FunTrials\F401_TMP102_LCD\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F401_TMP102_LCD.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

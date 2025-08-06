@@ -112,7 +112,7 @@ int main(void)
   HD44780_Init(2);
   HD44780_Clear();
   HD44780_SetCursor(0,0);
-  HD44780_PrintStr("TEMPERATURE:");
+  HD44780_PrintStr("Temperature is:");
 
   /* USER CODE END 2 */
 
