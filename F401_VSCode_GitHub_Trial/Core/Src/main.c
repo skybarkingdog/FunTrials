@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "stm32f401xe.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -97,6 +98,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+    HAL_Delay(1000);
+
     /* USER CODE END WHILE */
 
     /*Hahahahahaha*/
