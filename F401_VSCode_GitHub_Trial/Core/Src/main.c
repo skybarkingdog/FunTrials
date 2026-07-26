@@ -99,7 +99,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-    /*that is added code No.26*/
+    /*Hahahahahaha*/
 
     /* USER CODE BEGIN 3 */
   }
