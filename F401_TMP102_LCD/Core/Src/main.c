@@ -149,7 +149,7 @@ int main(void)
 
 				 HD44780_SetCursor(0,1);
 				 HD44780_PrintStr(buf);
-				 HAL_Delay(300);
+				 HAL_Delay(314);
 			 }
 		 }
 
