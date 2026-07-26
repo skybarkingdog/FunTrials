@@ -99,6 +99,8 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
+    /*that is added code No.1*/
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
